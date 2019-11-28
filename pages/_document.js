@@ -82,7 +82,6 @@ class CustomDocument extends Document {
 					/>
 					<link rel="stylesheet" href="assets/theme/css/custom_style.css"/>
 					<script src="https://wchat.freshchat.com/js/widget.js"></script>
-					<title>Home</title>
 				</Head>
 				<body>
 				<Main />

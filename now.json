@@ -1,0 +1,16 @@
+{
+  "name": "hikaya-website",
+  "version": 2,
+  "github": {
+    "enabled": true
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "out"
+      }
+    }
+  ]
+}

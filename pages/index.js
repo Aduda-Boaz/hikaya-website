@@ -6,6 +6,9 @@ import Stories from '../components/story/stories';
 
 const Home = () => (
   <div>
+  <Head>
+    <title>Home</title>
+  </Head>
     <Nav />
     <Mission />
     <Stories />

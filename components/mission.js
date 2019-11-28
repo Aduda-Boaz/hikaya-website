@@ -1,6 +1,6 @@
 const Mission = () => (
 	<section
-		className={classX}
+		className="header1 mbr-fullscreen mbr-parallax-background"
 		id="header1-2"
 	>
 		<div
