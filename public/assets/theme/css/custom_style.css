@@ -1,3 +1,5 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 p {
   font-family: "Lato", monospace;
   font-weight: 300;
@@ -258,6 +260,11 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0 5%;
+}
+
+.social-icon {
+  font-family: fontawesome !important;
+  color: #737581;
 }
 
 .hikaya-co {

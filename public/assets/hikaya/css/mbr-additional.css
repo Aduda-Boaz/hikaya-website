@@ -1813,10 +1813,6 @@ section.lazy-placeholder:after {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
-.cid-rGddVNMy7H .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
 .cid-rGddVNMy7H .media-container-row .social-list .soc-item {
   margin: 0 0.5rem;
 }
@@ -2306,10 +2302,6 @@ section.lazy-placeholder:after {
   flex-wrap: wrap;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
-}
-.cid-rGddVNMy7H .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
 }
 .cid-rGddVNMy7H .media-container-row .social-list .soc-item {
   margin: 0 0.5rem;

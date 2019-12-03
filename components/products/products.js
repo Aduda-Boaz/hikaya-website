@@ -79,7 +79,7 @@ const renderProductItems = rows => {
 const Products = () => {
   const rows = Object.keys(products);
   return (
-    <div className="products">
+    <div>
       <OurProducts />
       {renderProductItems(rows)}
     </div>
