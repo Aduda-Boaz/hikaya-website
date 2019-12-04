@@ -7,6 +7,7 @@ const products = {
     {
       itemClass: 'media-container-row',
       icon: 'activity.png',
+      id: 'product-activity',
       name: 'Activity',
       headline: 'Manage your activities and indicators with ease',
       description: `Activity is a tool that makes it easier for nonprofits to manage their project 
@@ -23,6 +24,7 @@ const products = {
     {
       itemClass: 'media-container-row reverse-content dots-container',
       icon: 'dots.png',
+      id: 'product-dots',
       name: 'Dots',
       headline: 'Connect and visualize your data from anywhere',
       description: `Built using open source tools like
@@ -44,6 +46,7 @@ const products = {
     {
       itemClass: 'media-container-row',
       icon: 'circles.png',
+      id: 'product-circles',
       name: 'Circles',
       headline: 'Standard form designer that automates KPI tracking',
       description: `We are building a progressive web application that

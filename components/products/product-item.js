@@ -1,5 +1,6 @@
 const ProductItem = ({
   icon,
+  id,
   name,
   headline,
   description,
@@ -8,7 +9,7 @@ const ProductItem = ({
   itemClass,
   buttonStyle,
 } = props) => (
-  <div className={itemClass}>
+  <div className={itemClass} id={id}>
     <div className="card p-3 col-12 col-md-6 col-lg-6">
       <div className="card-img pb-3">
         <span className="mbr-iconfont">

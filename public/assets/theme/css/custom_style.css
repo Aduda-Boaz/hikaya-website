@@ -23,6 +23,10 @@ p {
   font-size: 1.2rem;
 }
 
+.header {
+  font-family: Inconsolata;
+}
+
 .nav-font{
   font-size:1.1rem;
   color:#737581 !important;
@@ -260,6 +264,29 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0 5%;
+}
+
+.footer-socials-container {
+  background: #f5f8fa;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer-menu-container {
+  background: #FAFAFA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+} 
+
+.footer-menu {
+  margin: 0% 5%;
+}
+
+.footer-menu-item {
+  background: none;
+  border: none;
+  padding: 0.25rem 0rem;
+  margin-bottom: 0px;
 }
 
 .social-icon {
