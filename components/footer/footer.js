@@ -29,7 +29,7 @@ const socials = {
 // Products menu items
 const productsMenuItems = {
     item1: [{
-        link: '#product-ctivity',
+        link: '#product-activity',
         name: 'Activity'
     }],
     item2: [{
