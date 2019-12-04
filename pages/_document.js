@@ -12,7 +12,7 @@ class CustomDocument extends Document {
 			<Html>
 				<Head crossOrigin="" nonce="">
 					<meta charSet="UTF-8"/>
-					<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+					<meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
 					<meta
 						name="viewport"
 						content="width=device-width, initial-scale=1, minimum-scale=1"
@@ -46,7 +46,7 @@ class CustomDocument extends Document {
 					/>
 					<meta name="description" content=""/>
 					<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous"/>
-					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/> 
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
 					<link
 						href="https://fonts.googleapis.com/icon?family=Material+Icons"
 						rel="stylesheet"
@@ -83,6 +83,7 @@ class CustomDocument extends Document {
 					/>
 					<link rel="stylesheet" href="assets/theme/css/custom_style.css"/>
 					<script src="https://wchat.freshchat.com/js/widget.js"></script>
+					<title>Hikaya</title>
 				</Head>
 				<body>
 				<Main />
