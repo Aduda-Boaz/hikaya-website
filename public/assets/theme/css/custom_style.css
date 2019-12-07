@@ -1,3 +1,5 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 p {
   font-family: "Lato", monospace;
   font-weight: 300;
@@ -19,6 +21,10 @@ p {
 .display-7 {
   line-height: 1.5;
   font-size: 1.2rem;
+}
+
+.header {
+  font-family: Inconsolata;
 }
 
 .nav-font{
@@ -134,6 +140,13 @@ p {
 }
 
 /** Products **/
+.reverse-content {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .products {
   padding-bottom: 5%;
   background: #f5f8fa;
@@ -251,6 +264,34 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0 5%;
+}
+
+.footer-socials-container {
+  background: #f5f8fa;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer-menu-container {
+  background: #FAFAFA;
+  padding-top: 16px;
+  padding-bottom: 16px;
+} 
+
+.footer-menu {
+  margin: 0% 5%;
+}
+
+.footer-menu-item {
+  background: none;
+  border: none;
+  padding: 0.25rem 0rem;
+  margin-bottom: 0px;
+}
+
+.social-icon {
+  font-family: fontawesome !important;
+  color: #737581;
 }
 
 .hikaya-co {
