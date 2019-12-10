@@ -29,14 +29,17 @@ const socials = {
 // Products menu items
 const productsMenuItems = {
     item1: [{
+        id: 'product_1',
         link: '#product-activity',
         name: 'Activity'
     }],
     item2: [{
+        id: 'product_2',
         link: '#product-dots',
         name: 'Dots'
     }],
     item3: [{
+        id: 'product_3',
         link: '#product-circles',
         name: 'Circles'
     }]
@@ -78,42 +81,42 @@ const supportMenuItems = {
     }],
 };
 
-// Render footer menu items
-const renderFooterMenu = menuItems => {
-    return menuItems.map(menuItem => (
-        <li className="list-group-item footer-menu-item">
+// Render footer menu items key={menuItem.id}
+const renderProductsFooterMenu = menuItems => {
+    return menuItems.map((menuItem, index) => (
+        <li key={index} className="list-group-item footer-menu-item">
             {productsMenuItems[menuItem].map(item => (
-            <FooterMenu {...item} />
+            <FooterMenu key={item.link} {...item} />
         ))}
       </li>
     ));
 };
 
 const renderCompanyFooterMenu = menuItems => {
-    return menuItems.map(menuItem => (
-        <li className="list-group-item footer-menu-item">
+    return menuItems.map((menuItem, index) => (
+        <li key={index} className="list-group-item footer-menu-item">
             {companyMenuItems[menuItem].map(item => (
-            <FooterMenu {...item} />
+            <FooterMenu key={item.link} {...item} />
         ))}
       </li>
     ));
 };
 
 const renderSupportFooterMenu = menuItems => {
-    return menuItems.map(menuItem => (
-        <li className="list-group-item footer-menu-item">
+    return menuItems.map((menuItem, index) => (
+        <li key={index} className="list-group-item footer-menu-item">
             {supportMenuItems[menuItem].map(item => (
-            <FooterMenu {...item} />
+            <FooterMenu key={item.link} {...item} />
         ))}
       </li>
     ));
 };
 // Render footer social icons
 const renderFooterSocials = rows => {
-  return rows.map(row => (
-    <div className="soc-item">
+  return rows.map((row, index) => (
+    <div key={index} className="soc-item">
       {socials[row].map(social => (
-        <FooterSocial {...social} />
+        <FooterSocial key={social.link} {...social} />
       ))}
     </div>
   ));
@@ -134,7 +137,7 @@ const Footer = () => {
                 <div className="col-sm-4">
                     <p className="mbr-text mbr-fonts-style display-7 header">Products</p>
                     <ul className="list-group list-group-flush"> 
-                        { renderFooterMenu(productsMenu) }
+                        { renderProductsFooterMenu(productsMenu) }
                     </ul>
                 </div>
                 <div className="col-sm-4">
