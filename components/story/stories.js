@@ -67,7 +67,7 @@ const renderStoryItems = (rows) => {
 			<div className="container">
 				<div className="media-container-row products-approach__top">
 					{
-						stories[row].map(story => <StoryItem {...story}/>)
+						stories[row].map(story => <StoryItem key={story.name} {...story}/>)
 					}
 				</div>
 			</div>

@@ -18,6 +18,13 @@ p {
   color: #737581 !important;
 }
 
+.display-6 {
+  font-family: "Lato", monospace;
+  font-weight: 300;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
 .display-7 {
   line-height: 1.5;
   font-size: 1.2rem;
@@ -331,4 +338,34 @@ p {
   .dots-text {
     order: 2;
   }
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cookie-text {
+  text-align: center;
+  margin-bottom: 0rem;
+}
+.cookie-image {
+  margin: 0 8px;
+}
+.close {
+  height: 20px;
+  background-color: #777;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
 }

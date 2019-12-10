@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Nav = () => (
-  <section className="menu cid-rGcxRXmoaQ" once="menu" id="menu2-1">
+  <section className="menu cid-rGcxRXmoaQ" id="menu2-1">
     <nav
       className="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm box-shadow"
     >

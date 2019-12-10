@@ -72,7 +72,7 @@ const renderProductItems = rows => {
     <section key={row} className="features1 cid-rGdb9qTnNd" id="features1-9">
       <div className="container">
         {products[row].map(product => (
-          <ProductItem {...product} />
+          <ProductItem key={product.name} {...product} />
         ))}
       </div>
     </section>
