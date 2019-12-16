@@ -1,7 +1,7 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 
 p {
-  font-family: "Lato", monospace;
+  font-family: 'Lato', monospace;
   font-weight: 300;
   color: #737581;
 }
@@ -19,7 +19,7 @@ p {
 }
 
 .display-6 {
-  font-family: "Lato", monospace;
+  font-family: 'Lato', monospace;
   font-weight: 300;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -34,9 +34,9 @@ p {
   font-family: Inconsolata;
 }
 
-.nav-font{
-  font-size:1.1rem;
-  color:#737581 !important;
+.nav-font {
+  font-size: 1.1rem;
+  color: #737581 !important;
 }
 
 .material-icons {
@@ -54,7 +54,7 @@ p {
 /** Navigation **/
 
 .cid-rGcxRXmoaQ a {
-  font-family: "Lato", "Inconsolata", monospace;
+  font-family: 'Lato', 'Inconsolata', monospace;
   font-weight: 300 !important;
 }
 
@@ -66,8 +66,12 @@ p {
   height: 2.4rem !important;
 }
 
-.cid-rGcxRXmoaQ .navbar-toggleable-sm .navbar-collapse .navbar-nav .nav-item:hover {
-  background-color: #EEEEF0;
+.cid-rGcxRXmoaQ
+  .navbar-toggleable-sm
+  .navbar-collapse
+  .navbar-nav
+  .nav-item:hover {
+  background-color: #eeeef0;
   border-radius: 8px;
 }
 
@@ -77,7 +81,7 @@ p {
 
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 8px;
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -136,7 +140,7 @@ p {
 }
 
 .display-1 {
-  font-family: "Lato", "Inconsolata", monospace;
+  font-family: 'Lato', 'Inconsolata', monospace;
 }
 
 @media screen and (max-width: 400px) {
@@ -168,11 +172,11 @@ p {
 }
 
 .try-now-button {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 300;
   border-radius: 8px;
   padding: 10px 20px;
-  font-family: "Lato", monospace;
+  font-family: 'Lato', monospace;
 }
 
 .product-btn-wrapper {
@@ -180,18 +184,18 @@ p {
 }
 
 .product-contact-btn {
-  font-family: "Lato", monospace;
+  font-family: 'Lato', monospace;
   font-size: 1rem;
   font-weight: 300;
-  border: 1px solid #D5D6D9;
+  border: 1px solid #d5d6d9;
   border-radius: 10px;
   padding: 10px 20px;
-  color: #9D9EA7;
+  color: #9d9ea7;
 }
 
 .product-contact-btn:hover {
   color: #737581;
-  border: 1px solid #9D9EA7;
+  border: 1px solid #9d9ea7;
 }
 
 .product-buttons {
@@ -204,7 +208,7 @@ p {
   font-size: 1.7rem;
 }
 
-.product-header { 
+.product-header {
   font-weight: 600;
 }
 
@@ -280,10 +284,10 @@ p {
 }
 
 .footer-menu-container {
-  background: #FAFAFA;
+  background: #fafafa;
   padding-top: 16px;
   padding-bottom: 16px;
-} 
+}
 
 .footer-menu {
   margin: 0% 5%;
@@ -368,4 +372,39 @@ p {
   color: white;
   border-radius: 2px;
   cursor: pointer;
+}
+
+/* Teams page */
+.img-team {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  /* object-position: top; */
+  box-shadow: 0 4px 8px 0 rgba(115, 117, 129, 0.1),
+    0 6px 20px 0 rgba(115, 117, 129, 0.1);
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+}
+
+.team-page {
+  padding-top: 7rem;
+  text-align: center;
+  color: #737581;
+}
+
+.member-container {
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem 1rem;
+}
+
+.team-text {
+  padding-top: 2rem;
 }
