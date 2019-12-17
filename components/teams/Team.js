@@ -34,7 +34,7 @@ export const Team = () => {
       description:
         'Frontend engineer with a curiosity for design and helping to keep our apps happy',
       imageFormal: '/assets/images/team_photos/ivy_formal.JPG',
-      imageFun: '/assets/images/team_photos/ivy_fun.JPG'
+      imageFun: '/assets/images/team_photos/ivy_fun.jpg'
     },
     {
       id: 'ninette',
