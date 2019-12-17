@@ -376,11 +376,10 @@ p {
 
 /* Teams page */
 .img-team {
-  height: 9rem;
-  width: 9rem;
+  height: 10.5rem;
+  width: 10.5rem;
   border-radius: 50%;
   object-fit: cover;
-  /* object-position: top; */
   box-shadow: 0 4px 8px 0 rgba(115, 117, 129, 0.1),
     0 6px 20px 0 rgba(115, 117, 129, 0.1);
 }
@@ -394,17 +393,60 @@ p {
 }
 
 .team-page {
-  padding-top: 7rem;
+  padding-top: 9rem;
   text-align: center;
   color: #737581;
 }
 
 .member-container {
   width: 20rem;
-  height: 20rem;
+  height: 21rem;
   margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-text {
   padding-top: 2rem;
 }
+
+.amos {
+  object-position: 50% 30%;
+}
+
+.andrew {
+  object-position: top;
+}
+
+.henry {
+  object-position: 50% 30%;
+}
+
+.ivy {
+  object-position: 50% 24%;
+}
+
+.ninette {
+  object-position: 50% 30%;
+}
+
+.peter {
+  object-position: 50% 30%;
+}
+
+/* .image-container {
+  height: 10.5rem;
+  width: 10.5rem;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+.img-team {
+  position: relative;
+  top: -1rem;
+  left: 0rem;
+  width: 10rem;
+} */
