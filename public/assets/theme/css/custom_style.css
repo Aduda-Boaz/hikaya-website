@@ -450,3 +450,24 @@ p {
   left: 0rem;
   width: 10rem;
 } */
+
+/* Partner section */
+.img-partner {
+  height: 2.5rem;
+  padding: 0 3rem;
+}
+
+.partner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 4rem;
+}
+
+.segment {
+  height: 2rem;
+}
+
+.partner-title {
+  margin: 2rem;
+}

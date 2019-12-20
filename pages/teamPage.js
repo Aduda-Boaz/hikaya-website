@@ -1,5 +1,5 @@
 import React from 'react';
-import Team from '../components/teams/Team';
+import Team from '../components/team/Team';
 import Nav from '../components/nav';
 import Footer from '../components/footer/footer';
 
