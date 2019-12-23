@@ -464,6 +464,10 @@ p {
   margin: 0 2rem 4rem;
 }
 
+.img-partner:hover {
+  filter: brightness(0.5);
+}
+
 .segment {
   height: 2rem;
 }
