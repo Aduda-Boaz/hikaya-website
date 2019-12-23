@@ -3,7 +3,7 @@ import React from 'react';
 const Partners = () => {
   return (
     <div>
-      <h2 className='align-center pb-3 mbr-fonts-style display-5 partner-title'>
+      <h2 className='align-center pb-3 display-5 partner-title'>
         Our partners
       </h2>
       <div className='partner-container'>
