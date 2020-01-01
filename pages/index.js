@@ -1,24 +1,26 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
-import Mission from '../components/mission';
-import Stories from '../components/story/stories';
-import Products from '../components/products/products';
-import Footer from '../components/footer/footer';
-import Cookie from '../components/cookie';
+import React from 'react';
+import Head from 'next/head';
+import Nav from '../components/Nav';
+import Mission from '../components/Mission';
+import Stories from '../components/story/Stories';
+import Products from '../components/products/Products';
+import Footer from '../components/footer/Footer';
+import Cookie from '../components/Cookie';
+import Partners from '../components/Partners';
 
 const Home = () => (
   <div>
-  <Head>
-    <title>Home</title>
-  </Head>
+    <Head>
+      <title>Home</title>
+    </Head>
     <Nav />
     <Mission />
     <Stories />
     <Products />
+    <Partners />
     <Footer />
-    <Cookie/>
+    <Cookie />
   </div>
-)
+);
 
-export default Home
+export default Home;

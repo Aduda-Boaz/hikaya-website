@@ -284,7 +284,7 @@ p {
 }
 
 .footer-menu-container {
-  background: #fafafa;
+  background: #f5f8fa;
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -436,17 +436,37 @@ p {
   object-position: 50% 30%;
 }
 
-/* .image-container {
-  height: 10.5rem;
-  width: 10.5rem;
-  overflow: hidden;
-  border: 1px solid black;
-  background-color: #ddd;
-  border-radius: 50%;
+/* Partner section */
+.img-partner {
+  height: 2.5rem;
+  padding: 0 4rem;
 }
-.img-team {
-  position: relative;
-  top: -1rem;
-  left: 0rem;
-  width: 10rem;
-} */
+
+.partner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 6rem;
+}
+
+.img-partner:hover {
+  filter: brightness(0.5);
+}
+
+.segment {
+  height: 2rem;
+}
+
+.partner-title {
+  margin: 4rem 2rem 2rem;
+}
+
+@media screen and (max-width: 531px) {
+  .partner-container {
+    flex-direction: column;
+  }
+  .img-partner {
+    margin: 1rem;
+  }
+}

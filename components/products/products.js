@@ -1,6 +1,6 @@
 import React from 'react';
-import OurProducts from './our-products';
-import ProductItem from './product-item';
+import OurProducts from './OurProducts';
+import ProductItem from './ProductItem';
 
 const products = {
   product1: [
@@ -17,8 +17,8 @@ const products = {
         Activity is hosted and maintained by Hikaya and can be used any nonprofit.`,
       buttonText: 'Join our beta',
       buttonLink: 'https://activity.hikaya.app/accounts/register/user/none/',
-      buttonStyle: 'btn btn-sm btn-primary display-4 try-now-button',
-    },
+      buttonStyle: 'btn btn-sm btn-primary display-4 try-now-button'
+    }
   ],
   product2: [
     {
@@ -39,8 +39,8 @@ const products = {
                 systems.`,
       buttonText: 'Contact us',
       buttonLink: 'mailto:info@hikaya.io',
-      buttonStyle: 'product-contact-btn',
-    },
+      buttonStyle: 'product-contact-btn'
+    }
   ],
   product3: [
     {
@@ -62,15 +62,15 @@ const products = {
                 <a className="product-link" href="https://www.djangoproject.com/">Django</a>.`,
       buttonText: 'Contact us',
       buttonLink: 'mailto:info@hikaya.io',
-      buttonStyle: 'product-contact-btn',
-    },
-  ],
+      buttonStyle: 'product-contact-btn'
+    }
+  ]
 };
 
 const renderProductItems = rows => {
   return rows.map(row => (
-    <section key={row} className="features1 cid-rGdb9qTnNd" id="features1-9">
-      <div className="container">
+    <section key={row} className='features1 cid-rGdb9qTnNd' id='features1-9'>
+      <div className='container'>
         {products[row].map(product => (
           <ProductItem key={product.name} {...product} />
         ))}
