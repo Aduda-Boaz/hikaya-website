@@ -470,3 +470,7 @@ p {
     margin: 1rem;
   }
 }
+
+.no-display {
+  display: none;
+}

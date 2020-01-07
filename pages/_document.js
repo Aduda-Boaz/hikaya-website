@@ -4,6 +4,8 @@ import React from 'react';
 class CustomDocument extends Document {
 	static async getInitialProps(ctx) {
 		const initialProps = await Document.getInitialProps(ctx);
+		console.log('initialProps : ', initialProps);
+		
 		return { ...initialProps }
 	}
 
@@ -86,7 +88,10 @@ class CustomDocument extends Document {
 					<title>Hikaya</title>
 				</Head>
 				<body>
+					if (localStorage) {
+
 				<Main />
+					}
 
 				<NextScript />
 
