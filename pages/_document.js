@@ -86,11 +86,7 @@ class CustomDocument extends Document {
 					<title>Hikaya</title>
 				</Head>
 				<body>
-					if (localStorage) {
-
 				<Main />
-					}
-
 				<NextScript />
 
 				<script src="assets/web/assets/jquery/jquery.min.js"></script>
