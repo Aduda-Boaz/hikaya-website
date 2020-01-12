@@ -78,7 +78,9 @@ const Nav = () => (
             </li>
             <Link href='/blogs'>
               <li className='nav-item'>
+
                 <a className='nav-link link nav-font'>Blogs</a>
+
               </li>
             </Link>
           </ul>
