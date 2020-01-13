@@ -5,7 +5,7 @@ import Mission from '../components/Mission';
 import Stories from '../components/story/Stories';
 import Products from '../components/products/Products';
 import Footer from '../components/footer/Footer';
-import Cookie from '../components/Cookie';
+import Cookie from '../components/cookie';
 import Partners from '../components/Partners';
 
 const Home = () => (
