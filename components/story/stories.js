@@ -52,7 +52,7 @@ const stories = {
                   timely information for informed decision making.`
     },
     {
-      icon: 'visualization.png',
+      icon: 'open_source.png',
       name: 'Commitment to Open Source',
       description: `Our team is committed to developing solutions using an
                   iterative, human-centered design approach and support the use
@@ -65,7 +65,7 @@ const renderStoryItems = rows => {
   return rows.map(row => (
     <section key={row} className='features1 cid-rGcC0zE5vw' id='features1-4'>
       <div className='container'>
-        <div className='media-container-row products-approach__top'>
+        <div className='media-container-column products-approach__top'>
           {stories[row].map(story => (
             <StoryItem key={story.name} {...story} />
           ))}

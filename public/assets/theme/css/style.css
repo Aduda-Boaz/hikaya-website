@@ -131,7 +131,7 @@ input:-webkit-autofill:active {
   transition-property: background-color, color;
 }
 
-textarea[type="hidden"] {
+textarea[type='hidden'] {
   display: none;
 }
 
@@ -197,7 +197,7 @@ section .mbr-background-video-preview {
   .align-right,
   .mbr-section-btn,
   .mbr-section-title {
-    text-align: center;
+    text-align: left;
   }
 }
 /*! Font-weight  */
@@ -437,7 +437,7 @@ nav .mbr-section-btn {
   font-weight: 700;
 }
 
-[type="submit"] {
+[type='submit'] {
   -webkit-appearance: none;
 }
 
@@ -455,7 +455,8 @@ nav .mbr-section-btn {
   align-items: center;
   -webkit-align-items: center;
   min-height: 100vh;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
+  padding-top: 5rem;
   padding-bottom: 3rem;
 }
 
@@ -526,7 +527,7 @@ blockquote {
 .alert.alert-form::after {
   background-color: inherit;
   bottom: -7px;
-  content: "";
+  content: '';
   display: block;
   height: 14px;
   left: 50%;
@@ -546,7 +547,7 @@ blockquote {
 
 /*! Scroll to top arrow */
 #scrollToTop a i:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 40%;
   top: 25%;
@@ -555,7 +556,7 @@ blockquote {
   left: calc(50% - 1px);
 }
 #scrollToTop a i:after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   border-top: 2px solid #fff;
@@ -607,7 +608,7 @@ blockquote {
 }
 
 .mbr-arrow-up-icon::before {
-  content: "\203a";
+  content: '\203a';
   display: inline-block;
   font-family: serif;
   font-size: 32px;
@@ -759,7 +760,7 @@ blockquote {
 }
 
 /* Others*/
-.note-check a[data-value="Rubik"] {
+.note-check a[data-value='Rubik'] {
   font-style: normal;
 }
 
@@ -856,7 +857,7 @@ blockquote {
   padding: 1.07em 0.5em;
 }
 
-input[type="range"] {
+input[type='range'] {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -906,7 +907,7 @@ input[type="range"] {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
+  content: '';
   background: no-repeat center center;
   -webkit-background-size: 100% 100%;
   -o-background-size: 100% 100%;

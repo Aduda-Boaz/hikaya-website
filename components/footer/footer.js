@@ -77,7 +77,7 @@ const companyMenuItems = {
   ],
   item3: [
     {
-      link: '',
+      link: '/teamPage',
       name: 'Team'
     }
   ],
@@ -99,7 +99,7 @@ const companyMenuItems = {
 const supportMenuItems = {
   item1: [
     {
-      link: '',
+      link: 'https://help.hikaya.io/',
       name: 'User knowledge base'
     }
   ],
