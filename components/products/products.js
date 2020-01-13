@@ -5,7 +5,7 @@ import ProductItem from './ProductItem';
 const products = {
   product1: [
     {
-      itemClass: 'media-container-row',
+      itemClass: 'product-container media-container-row',
       icon: 'activity.png',
       id: 'product-activity',
       name: 'Activity',
@@ -22,7 +22,8 @@ const products = {
   ],
   product2: [
     {
-      itemClass: 'media-container-row reverse-content dots-container',
+      itemClass:
+        'product-container media-container-row reverse-content dots-container',
       icon: 'dots.png',
       id: 'product-dots',
       name: 'Dots',
@@ -31,7 +32,10 @@ const products = {
                 <a className="product-link" href="https://airflow.apache.org/">Apache Airflow</a> and
                 <a className="product-link" href="https://metabase.com/">Metabase</a>, we’re architecting
                 a common data pipeline for nonprofits to manage their
-                unstructured datasets by importing datasets from third-party
+                unstructured datasets. 
+                <br/>
+                <br/>
+                Dots helps import datasets from third-party
                 data collection tools while hosting a series of pre-built
                 connectors that let organizations integrate their ERP systems.
                 The application provides a workspace to perform cleaning and
@@ -44,16 +48,18 @@ const products = {
   ],
   product3: [
     {
-      itemClass: 'media-container-row',
+      itemClass: 'product-container media-container-row',
       icon: 'circles.png',
       id: 'product-circles',
       name: 'Circles',
       headline: 'Standard form designer that automates KPI tracking',
       description: `We are building a progressive web application that
                 helps design, offline data collection forms that are
-                standardized and linked to key performance indicators so that
-                nonprofits can easily automate their reporting. This application
-                is based on a micro-service architecture for high performance,
+                standardized and are immediately linked to key performance indicators so that
+                nonprofits can easily automate their reporting. 
+                <br/>
+                <br/>
+                This application is based on a micro-service architecture for high performance,
                 scalability, and availability using
                 <a className="product-link" href="https://angular.io/">Angular 8</a>
                 and

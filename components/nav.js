@@ -65,7 +65,7 @@ const Nav = () => (
           </a>
           <a
             className='btn btn-sm btn-primary display-4 btn-nav'
-            href='index.html#content4-8'
+            href='index#content4-8'
           >
             Join
           </a>
