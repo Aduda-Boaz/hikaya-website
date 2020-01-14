@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Nav from '../components/Nav';
+import Nav from '../components/nav';
 import Mission from '../components/Mission';
 import Stories from '../components/story/Stories';
 import Products from '../components/products/Products';
