@@ -55,7 +55,7 @@ class CustomDocument extends Document {
             rel='stylesheet'
             href='https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css'
             integrity='sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P'
-            crossorigin='anonymous'
+            crossOrigin='anonymous'
           />
           <link
             rel='stylesheet'
@@ -107,7 +107,6 @@ class CustomDocument extends Document {
             crossorigin='anonymous'
           ></script>
           <script src='https://wchat.freshchat.com/js/widget.js'></script>
-          <title>Hikaya</title>
         </Head>
         <body>
           <Main />
