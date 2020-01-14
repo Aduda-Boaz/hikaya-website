@@ -53,6 +53,12 @@ class CustomDocument extends Document {
           <meta name='description' content='' />
           <link
             rel='stylesheet'
+            href='https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css'
+            integrity='sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P'
+            crossorigin='anonymous'
+          />
+          <link
+            rel='stylesheet'
             href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'
           />
           <link
@@ -82,14 +88,14 @@ class CustomDocument extends Document {
             href='assets/bootstrap/css/bootstrap-reboot.min.css'
           />
           <link rel='stylesheet' href='assets/dropdown/css/style.css' />
-          <link rel='stylesheet' href='assets/tether/tether.min.css' />
+          {/* <link rel="stylesheet" href="assets/tether/tether.min.css"/> */}
           <link rel='stylesheet' href='assets/animatecss/animate.min.css' />
           <link rel='stylesheet' href='assets/theme/css/style.css' />
-          <link
-            rel='preload'
-            as='style'
-            href='assets/hikaya/css/mbr-additional.css'
-          />
+          {/* <link
+						rel="preload"
+						as="style"
+						href="assets/hikaya/css/mbr-additional.css"
+					/> */}
           <link
             rel='stylesheet'
             href='assets/hikaya/css/mbr-additional.css'

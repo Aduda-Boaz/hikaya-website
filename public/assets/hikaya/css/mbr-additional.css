@@ -1172,12 +1172,13 @@ section.lazy-placeholder:after {
 .cid-rGcC0zE5vw .mbr-text {
   color: #737581;
 }
-.cid-rGcC0zE5vw h4 {
-  text-align: center;
+/* .cid-rGcC0zE5vw h4 {
+ 
+   text-align: center; 
 }
 .cid-rGcC0zE5vw p {
   text-align: center;
-}
+} */
 .cid-rGcC0zE5vw .card-img span {
   font-size: 96px;
   color: #149dcc;
@@ -1230,9 +1231,9 @@ section.lazy-placeholder:after {
 .cid-rGdb9qTnNd h4 {
   text-align: center;
 }
-.cid-rGdb9qTnNd p {
+/* .cid-rGdb9qTnNd p {
   text-align: center;
-}
+} */
 .cid-rGdb9qTnNd .card-img span {
   font-size: 96px;
   color: #149dcc;

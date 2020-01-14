@@ -189,7 +189,7 @@ section .mbr-background-video-preview {
   .align-right,
   .mbr-section-btn,
   .mbr-section-title {
-    text-align: center;
+    text-align: left;
   }
 }
 /*! Font-weight  */
@@ -447,7 +447,8 @@ nav .mbr-section-btn {
   align-items: center;
   -webkit-align-items: center;
   min-height: 100vh;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
+  padding-top: 5rem;
   padding-bottom: 3rem;
 }
 
