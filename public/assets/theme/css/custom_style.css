@@ -401,6 +401,10 @@ p {
   margin-bottom: 0px;
 }
 
+.footer-menu-item .mbr-text:hover {
+  color: #B9BAC0 !important;
+}
+
 .social-icon {
   font-family: fontawesome !important;
   color: #737581;
@@ -442,6 +446,9 @@ p {
   }
   .dots-text {
     order: 2;
+  }
+  .footer-menu .col-sm-4:not(:first-of-type) {
+    padding-top: 24px;
   }
 }
 
@@ -672,7 +679,6 @@ p {
     max-width: 7rem;
   }
 }
-
 
 /* Blog page */
 .blog-page {

@@ -42,7 +42,7 @@ const Nav = () => (
                 aria-expanded='false'
               >
                 About
-                <i class='fas fa-chevron-down nav-arrow'></i>
+                <i className='fas fa-chevron-down nav-arrow'></i>
               </a>
 
               <div className='dropdown-menu about-dropdown'>
@@ -57,7 +57,7 @@ const Nav = () => (
 
                 <Link href='/teamPage'>
                   <a className='dropdown-item'>
-                    <i class='far fa-user team-icon'></i>
+                    <i className='far fa-user team-icon'></i>
                     Team
                   </a>
                 </Link>
