@@ -1,13 +1,13 @@
 import React from 'react';
-import Team from '../components/team/Team';
 import Nav from '../components/Nav';
 import Footer from '../components/footer/Footer';
+import Blogs from '../components/Blogs';
 
 export const teamPage = () => {
   return (
     <>
       <Nav />
-      <Team />
+      <Blogs />
       <Footer />
     </>
   );

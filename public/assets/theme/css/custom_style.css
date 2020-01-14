@@ -108,6 +108,71 @@ p {
   box-shadow: 0 8px 6px -6px #d5d6d9;
 }
 
+/* Navbar */
+
+@media screen and (max-width: 531px) {
+  /* .dropdown-toggle::after {
+    display: none;
+  } */
+  .book-icon {
+    height: 1rem;
+    color: #737581;
+    padding-right: 1.5rem;
+  }
+  .cogs-icon {
+    height: 1.5rem;
+    font-weight: 900;
+    padding-right: 1rem;
+  }
+  .team-icon {
+    height: 1rem;
+    color: #737581;
+    padding-right: 1.5rem;
+  }
+  .about-dropdown > a {
+    float: left;
+  }
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-arrow {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.dropdown .dropdown-submenu {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  max-height: 0;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+}
+.book-icon {
+  height: 1rem;
+  color: #737581;
+  padding-right: 1.5rem;
+}
+.cogs-icon {
+  height: 1.5rem;
+  font-weight: 900;
+  padding-right: 1rem;
+}
+.team-icon {
+  height: 1rem;
+  color: #737581;
+  padding-right: 1.5rem;
+}
+.about-dropdown > a {
+  float: left;
+}
+
 /** Header **/
 .mbr-fullscreen {
   min-height: 50vh;
@@ -608,6 +673,10 @@ p {
   }
 }
 
-.no-display {
-  display: none;
+/* Blog page */
+.blog-page {
+  padding-top: 9rem;
+  text-align: center;
+  color: #737581;
 }
+
