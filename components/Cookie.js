@@ -3,8 +3,8 @@ import React from 'react';
 export const Cookie = () => (
   <div className='cookie-banner'>
     <p className='cookie-text'>
-      {/* <img src="assets/images/cookie.png" width="16" className="cookie-image" /> */}
-      🍪This website uses cookies to ensure you get the best experience.
+      <img src='assets/images/cookie.png' width='16' className='cookie-image' />
+      This website uses cookies to ensure you get the best experience.
       {/* <a href="/privacy" target="_blank"> Privacy Policy</a>  */}
     </p>
     <button

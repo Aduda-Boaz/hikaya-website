@@ -102,6 +102,10 @@ class CustomDocument extends Document {
             type='text/css'
           />
           <link rel='stylesheet' href='assets/theme/css/custom_style.css' />
+          <script
+            src='https://kit.fontawesome.com/38fa51c3e1.js'
+            crossorigin='anonymous'
+          ></script>
           <script src='https://wchat.freshchat.com/js/widget.js'></script>
           <title>Hikaya</title>
         </Head>

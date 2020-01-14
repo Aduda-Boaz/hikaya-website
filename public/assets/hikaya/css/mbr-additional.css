@@ -2158,7 +2158,8 @@ section.lazy-placeholder:after {
     -webkit-flex-direction: column;
   }
   .cid-rGcxRXmoaQ img {
-    height: 3rem !important;
+    /* height: 3rem !important; */
+    height: 1rem !important;
   }
   .cid-rGcxRXmoaQ .btn {
     display: -webkit-flex;
@@ -2230,7 +2231,8 @@ section.lazy-placeholder:after {
     position: inherit;
     right: 0;
     top: 50%;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     width: 0;
     height: 0;
     margin-left: 0.3em;

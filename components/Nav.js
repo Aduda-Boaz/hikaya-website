@@ -31,26 +31,56 @@ const Nav = () => (
       </div>
       <div className='collapse navbar-collapse' id='navbarSupportedContent'>
         <div>
-          <ul className='navbar-nav nav-dropdown' data-app-modern-menu='true'>
-            <li className='nav-item'>
+          <ul className='navbar-nav nav-dropdown'>
+            <li className='nav-item dropdown'>
               <a
-                className='nav-link link nav-font'
-                href='index.html#content4-3'
+                className='nav-link link nav-font dropdown-toggle'
+                data-toggle='dropdown-submenu'
+                role='button'
+                // role='menu'
+                // aria-haspopup='true'
+                aria-expanded='false'
               >
                 About
+                <i class='fas fa-chevron-down nav-arrow'></i>
               </a>
+
+              <div className='dropdown-menu about-dropdown'>
+                <a className='dropdown-item' href='index#content4-3'>
+                  <img
+                    className='book-icon'
+                    src='/assets/images/book.png'
+                    alt='book icon'
+                  />
+                  Our story
+                </a>
+
+                <Link href='/teamPage'>
+                  <a className='dropdown-item'>
+                    <i class='far fa-user team-icon'></i>
+                    Team
+                  </a>
+                </Link>
+                <a className='dropdown-item' href='#'>
+                  <img
+                    className='cogs-icon'
+                    src='/assets/images/cogs.png'
+                    alt='cogs icon'
+                  />
+                  Engineering
+                </a>
+              </div>
             </li>
             <li className='nav-item'>
-              <a
-                className='nav-link link nav-font'
-                href='index.html#content4-8'
-              >
+              <a className='nav-link link nav-font' href='index#content4-8'>
                 Products
               </a>
             </li>
-            <Link href='/teamPage'>
+            <Link href='/blogs'>
               <li className='nav-item'>
-                <a className='nav-link link nav-font'>Team</a>
+
+                <a className='nav-link link nav-font'>Blogs</a>
+
               </li>
             </Link>
           </ul>
