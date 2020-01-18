@@ -402,7 +402,7 @@ p {
 }
 
 .footer-menu-item .mbr-text:hover {
-  color: #B9BAC0 !important;
+  color: #b9bac0 !important;
 }
 
 .social-icon {
@@ -452,27 +452,39 @@ p {
   }
 }
 
+/* Cookies */
+
 .cookie-banner {
   position: fixed;
-  bottom: 24px;
+  bottom: 0;
+  /* bottom: 24px;
   left: 10%;
-  right: 10%;
-  width: 80%;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
+  right: 10%; */
+  width: 100%;
   background-color: #eee;
   border-radius: 5px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
-.cookie-text {
+
+.cookie-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .cookie-text {
   text-align: center;
   margin-bottom: 0rem;
 }
 .cookie-image {
   margin: 0 8px;
+} */
+
+.cookie-close {
+  color: #9d9ea7;
 }
+
 .close {
   height: 20px;
   background-color: #777;
@@ -686,4 +698,3 @@ p {
   text-align: center;
   color: #737581;
 }
-
