@@ -76,7 +76,7 @@ p {
 }
 
 .mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 8px;
+  border-radius: 3px;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -262,7 +262,7 @@ p {
 .try-now-button {
   font-size: 1rem;
   font-weight: 300;
-  border-radius: 8px;
+  border-radius: 3px;
   padding: 10px 20px;
   font-family: 'Lato', monospace;
 }
@@ -276,7 +276,7 @@ p {
   font-size: 1rem;
   font-weight: 300;
   border: 1px solid #d5d6d9;
-  border-radius: 10px;
+  border-radius: 3px;
   padding: 10px 20px;
   color: #9d9ea7;
 }
@@ -402,7 +402,7 @@ p {
 }
 
 .footer-menu-item .mbr-text:hover {
-  color: #B9BAC0 !important;
+  color: #b9bac0 !important;
 }
 
 .social-icon {
@@ -686,4 +686,3 @@ p {
   text-align: center;
   color: #737581;
 }
-
