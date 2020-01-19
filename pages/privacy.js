@@ -7,7 +7,7 @@ const Privacy = () => (
         <div class='mbr-text col-12 mbr-fonts-style display-7 col-md-8'>
           <p>
             <a class='back-home' href='/'>
-              Hikaya
+              Back to the home page
             </a>
             <br />
           </p>

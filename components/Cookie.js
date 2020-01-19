@@ -31,31 +31,29 @@ class Cookie extends Component {
   render() {
     return this.state.show ? (
       <div className='cookie-banner'>
-        <div className='cookie-contianer'>
+        <div className='cookie-container'>
           <p className='cookie-text'>
-            This website uses cookies to ensure you get the best experience.
-            Here's our
+            Hikaya uses cookies to allow us to better understand how the site is
+            used. By continuing to use this site, you consent to this policy.
             <span>
-              <a href='/privacy'> Privacy Policy.</a>
+              <a href='/privacy' target='_blank'>
+                {' '}
+                Click to learn more.
+              </a>
             </span>
           </p>
-          <button
+          {/* <button
             className='btn btn-sm btn-primary display-6'
             onClick={this.acceptCookies}
           >
             Accept
-          </button>
-          {/* <div className='cookie-close'> */}
-          <i class='fas fa-times cookie-close'></i>
-          {/* </div> */}
-          {/* <a
-          href='/privacy'
-          target='_blank'
-          className='btn btn-sm btn-primary display-6'
-          onClick={this.declineCookies}
-        >
-          Privacy Policy
-        </a> */}
+          </button> */}
+          <div className='cookie-close-container'>
+            <i
+              class='fas fa-times cookie-close'
+              onClick={this.declineCookies}
+            ></i>
+          </div>
         </div>
       </div>
     ) : null;
