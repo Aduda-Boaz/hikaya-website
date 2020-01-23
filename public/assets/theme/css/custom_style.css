@@ -452,26 +452,41 @@ p {
   }
 }
 
+/* Cookies */
+
 .cookie-banner {
   position: fixed;
-  bottom: 24px;
+  bottom: 0;
+  /* bottom: 24px;
   left: 10%;
-  right: 10%;
-  width: 80%;
+  right: 10%; */
+  width: 100%;
+  background-color: #eee;
+  /* border-radius: 5px; */
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cookie-container {
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: #eee;
-  border-radius: 5px;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 0.5rem 1rem;
 }
+
 .cookie-text {
-  text-align: center;
   margin-bottom: 0rem;
+  margin-right: 3rem;
+  margin-left: 1rem;
 }
-.cookie-image {
-  margin: 0 8px;
+
+.cookie-close {
+  color: #9d9ea7;
+  cursor: pointer;
+}
+.cookie-close-container {
+  position: absolute;
+  right: 3rem;
 }
 .close {
   height: 20px;
@@ -480,6 +495,31 @@ p {
   color: white;
   border-radius: 2px;
   cursor: pointer;
+}
+
+/* Tablet configuration */
+@media screen and (max-width: 1024px) {
+  .cookie-text {
+    margin-bottom: 0rem;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .cookie-close-container {
+    right: 2rem;
+  }
+}
+
+/* Mobile device configuration */
+@media screen and (max-width: 768px) {
+  .cookie-text {
+    margin-bottom: 0rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .cookie-close-container {
+    right: 1.5rem;
+  }
 }
 
 /* Teams page */

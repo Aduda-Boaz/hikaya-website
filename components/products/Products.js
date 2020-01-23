@@ -12,8 +12,8 @@ const products = {
       headline: 'Manage your activities and indicators with ease',
       description: `Activity is a tool that makes it easier for nonprofits to manage their project 
         activities and indicator results. Activity is based on an <a className="product-link" 
-        href="https://github.com/mercycorps/TolaActivity" >open source project</a> started at 
-        <a className="product-link" href="https://www.mercycorps.org/">Mercy Corps</a> in 2014. 
+        href="https://github.com/mercycorps/TolaActivity" target="_blank" >open source project</a> started at 
+        <a className="product-link" href="https://www.mercycorps.org/" target="_blank">Mercy Corps</a> in 2014. 
         Activity is hosted and maintained by Hikaya and can be used any nonprofit.`,
       buttonText: 'Join our beta',
       buttonLink: 'https://activity.hikaya.app/accounts/register/user/none/',
@@ -29,8 +29,8 @@ const products = {
       name: 'Dots',
       headline: 'Connect and visualize your data from anywhere',
       description: `Built using open source tools like
-                <a className="product-link" href="https://airflow.apache.org/">Apache Airflow</a> and
-                <a className="product-link" href="https://metabase.com/">Metabase</a>, we’re architecting
+                <a className="product-link" href="https://airflow.apache.org/" target="_blank">Apache Airflow</a> and
+                <a className="product-link" href="https://metabase.com/" target="_blank">Metabase</a>, we’re architecting
                 a common data pipeline for nonprofits to manage their
                 unstructured datasets. 
                 <br/>
@@ -61,11 +61,11 @@ const products = {
                 <br/>
                 This application is based on a micro-service architecture for high performance,
                 scalability, and availability using
-                <a className="product-link" href="https://angular.io/">Angular 8</a>
+                <a className="product-link" href="https://angular.io/" target="_blank">Angular 8</a>
                 and
-                <a className="product-link" href="https://www.python.org/">Python</a>
+                <a className="product-link" href="https://www.python.org/" target="_blank">Python</a>
                 /
-                <a className="product-link" href="https://www.djangoproject.com/">Django</a>.`,
+                <a className="product-link" href="https://www.djangoproject.com/" target="_blank">Django</a>.`,
       buttonText: 'Contact us',
       buttonLink: 'mailto:info@hikaya.io',
       buttonStyle: 'product-contact-btn'
