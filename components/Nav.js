@@ -46,7 +46,7 @@ const Nav = () => (
               </a>
 
               <div className='dropdown-menu about-dropdown'>
-                <a className='dropdown-item' href='index#content4-3'>
+                <a className='dropdown-item' href='/#content4-3'>
                   <img
                     className='book-icon'
                     src='/assets/images/book.png'
@@ -78,9 +78,7 @@ const Nav = () => (
             </li>
             <Link href='/blogs'>
               <li className='nav-item'>
-
                 <a className='nav-link link nav-font'>Blogs</a>
-
               </li>
             </Link>
           </ul>
