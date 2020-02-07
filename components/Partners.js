@@ -10,28 +10,28 @@ const Partners = () => {
         <a href='https://www.digitalocean.com/hatch/' target='_blank'>
           <img
             className='img-partner'
-            src='/assets/images/DO_Hatch_grey.png'
+            src='assets/images/DO_Hatch_grey.png'
             alt='digital ocean hatch logo'
           />
         </a>
         <a href='https://github.com/sponsors/hikaya-io' target='_blank'>
           <img
             className='img-partner'
-            src='/assets/images/github-grey.png'
+            src='assets/images/github-grey.png'
             alt='github sponsors logo'
           />
         </a>
         <a href='https://segment.com/' target='_blank'>
           <img
             className='img-partner segment'
-            src='/assets/images/segment_grey.png'
+            src='assets/images/segment_grey.png'
             alt='segment logo'
           />
         </a>
         <a href='https://www.startupschool.org/' target='_blank'>
           <img
             className='img-partner'
-            src='/assets/images/startup_school_grey.png'
+            src='assets/images/startup_school_grey.png'
             alt='startup school logo'
           />
         </a>

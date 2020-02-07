@@ -49,13 +49,13 @@ const Nav = () => (
                 <a className='dropdown-item' href='/#content4-3'>
                   <img
                     className='book-icon'
-                    src='/assets/images/book.png'
+                    src='assets/images/book.png'
                     alt='book icon'
                   />
                   Our story
                 </a>
 
-                <Link href='/teamPage'>
+                <Link href='/team'>
                   <a className='dropdown-item'>
                     <i className='far fa-user team-icon'></i>
                     Team
@@ -64,7 +64,7 @@ const Nav = () => (
                 <a className='dropdown-item' href='#'>
                   <img
                     className='cogs-icon'
-                    src='/assets/images/cogs.png'
+                    src='assets/images/cogs.png'
                     alt='cogs icon'
                   />
                   Engineering

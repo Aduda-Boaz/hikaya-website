@@ -3,7 +3,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/footer/Footer';
 import Blogs from '../components/Blogs';
 
-export const teamPage = () => {
+export const BlogsPage = () => {
   return (
     <>
       <Nav />
@@ -13,4 +13,4 @@ export const teamPage = () => {
   );
 };
 
-export default teamPage;
+export default BlogsPage;
