@@ -1,16 +1,16 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/footer/Footer';
-import Blogs from '../components/Blogs';
+import Blog from '../components/Blog';
 
-export const teamPage = () => {
+export const BlogsPage = () => {
   return (
     <>
       <Nav />
-      <Blogs />
+      <Blog />
       <Footer />
     </>
   );
 };
 
-export default teamPage;
+export default BlogsPage;

@@ -34,7 +34,7 @@ const Nav = () => (
           <ul className='navbar-nav nav-dropdown'>
             <li className='nav-item dropdown'>
               <a
-                className='nav-link link nav-font dropdown-toggle'
+                className='nav-link link nav-font dropdown-toggle about'
                 data-toggle='dropdown-submenu'
                 role='button'
                 // role='menu'
@@ -49,13 +49,13 @@ const Nav = () => (
                 <a className='dropdown-item' href='/#content4-3'>
                   <img
                     className='book-icon'
-                    src='/assets/images/book.png'
+                    src='assets/images/book.png'
                     alt='book icon'
                   />
                   Our story
                 </a>
 
-                <Link href='/teamPage'>
+                <Link href='/team'>
                   <a className='dropdown-item'>
                     <i className='far fa-user team-icon'></i>
                     Team
@@ -64,7 +64,7 @@ const Nav = () => (
                 <a className='dropdown-item' href='#'>
                   <img
                     className='cogs-icon'
-                    src='/assets/images/cogs.png'
+                    src='assets/images/cogs.png'
                     alt='cogs icon'
                   />
                   Engineering
@@ -76,9 +76,9 @@ const Nav = () => (
                 Products
               </a>
             </li>
-            <Link href='/blogs'>
+            <Link href='/blog'>
               <li className='nav-item'>
-                <a className='nav-link link nav-font'>Blogs</a>
+                <a className='nav-link link nav-font'>Blog</a>
               </li>
             </Link>
           </ul>

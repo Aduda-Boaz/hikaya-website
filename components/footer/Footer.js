@@ -77,7 +77,7 @@ const companyMenuItems = {
   ],
   item3: [
     {
-      link: '/teamPage',
+      link: '/team',
       name: 'Team'
     }
   ],
