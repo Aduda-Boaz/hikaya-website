@@ -1,6 +1,6 @@
 const Copyright = () => (
     <div className="row-copyright">
-      <p className="hikaya-co">© 2019 Hikaya</p>
+      <p className="hikaya-co">© 2020 Hikaya</p>
       <a className="text-white" href="/terms" target="_blank">
         Terms
       </a>
