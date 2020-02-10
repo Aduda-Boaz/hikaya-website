@@ -132,6 +132,9 @@ p {
   .about-dropdown > a {
     float: left;
   }
+  .about-dropdown {
+    box-shadow: none;
+  }
 }
 
 .dropdown-toggle::after {
@@ -171,6 +174,14 @@ p {
 }
 .about-dropdown > a {
   float: left;
+}
+
+.about-dropdown {
+  box-shadow: 0 0 10px #E8E8E8;
+  border-radius: 3px;
+}
+.about {
+  height: 3.1rem;
 }
 
 /** Header **/
