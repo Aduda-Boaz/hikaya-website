@@ -34,7 +34,7 @@ const Nav = () => (
           <ul className='navbar-nav nav-dropdown'>
             <li className='nav-item dropdown'>
               <a
-                className='nav-link link nav-font dropdown-toggle'
+                className='nav-link link nav-font dropdown-toggle about'
                 data-toggle='dropdown-submenu'
                 role='button'
                 // role='menu'
@@ -76,9 +76,9 @@ const Nav = () => (
                 Products
               </a>
             </li>
-            <Link href='/blogs'>
+            <Link href='/blog'>
               <li className='nav-item'>
-                <a className='nav-link link nav-font'>Blogs</a>
+                <a className='nav-link link nav-font'>Blog</a>
               </li>
             </Link>
           </ul>
