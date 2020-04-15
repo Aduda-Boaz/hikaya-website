@@ -45,7 +45,7 @@ const products = {
       name: 'Connectors',
       headline: 'Harness enterprise-grade solutions in your data pipeline',
       description: `We’re architecting a common data pipeline 
-      for nonprofits to manage their unstructured datasets by importing datasets 
+      for nonprofits to manage their unstructured datasets by importing 
       from third-party data collection tools while hosting a series of pre-built 
       connectors that let organizations seamlessly integrate their ERP systems.
       <br>
