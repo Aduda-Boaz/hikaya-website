@@ -44,14 +44,14 @@ const products = {
       id: 'product-connectors',
       name: 'Connectors',
       headline: 'Harness enterprise-grade solutions in your data pipeline',
-      description: `With **Connectors** we’re architecting a common data pipeline 
+      description: `We’re architecting a common data pipeline 
       for nonprofits to manage their unstructured datasets by importing datasets 
       from third-party data collection tools while hosting a series of pre-built 
-      connectors that let organizations integrate their ERP systems.
+      connectors that let organizations seamlessly integrate their ERP systems.
       <br>
       <br>
-      Built using open source tools like [Apache Airflow](https://airflow.apache.org/) 
-      and [Apache Superset](http://superset.incubator.apache.org/), we're helping nonprofits 
+      Built using open source tools like <a className="product-link" href="https://airflow.apache.org/" target="_blank">Apache Airflow</a> 
+      and <a className="product-link" href="http://superset.incubator.apache.org/" target="_blank">Apache Superset</a>, we're helping nonprofits 
       implement end-to-end data integration and business intelligence solutions.`,
       buttonText: 'Learn more',
       buttonLink: 'mailto:info@hikaya.io',
