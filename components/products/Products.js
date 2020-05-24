@@ -11,9 +11,10 @@ const products = {
       name: 'Activity',
       headline: 'Manage your activities and indicators with ease',
       description: `Activity is a tool that makes it easier for nonprofits to manage their project 
-        activities and indicator results. Activity is based on an <a className="product-link" 
-        href="https://github.com/mercycorps/TolaActivity" target="_blank" >open source project</a> started at 
+        activities and indicator results. Activity is based on an open source project</a> started at 
         <a className="product-link" href="https://www.mercycorps.org/" target="_blank">Mercy Corps</a> in 2014. 
+        <br>
+        <br>
         Activity is hosted and maintained by Hikaya and can be used any nonprofit.`,
       buttonText: 'Join our beta',
       buttonLink: 'https://activity.hikaya.app/accounts/register/user/none/',
@@ -28,20 +29,10 @@ const products = {
       id: 'product-dots',
       name: 'Dots',
       headline: 'Connect and visualize your data from anywhere',
-      description: `Built using open source tools like
-                <a className="product-link" href="https://airflow.apache.org/" target="_blank">Apache Airflow</a> and
-                <a className="product-link" href="https://metabase.com/" target="_blank">Metabase</a>, we’re architecting
-                a common data pipeline for nonprofits to manage their
-                unstructured datasets. 
-                <br/>
-                <br/>
-                Dots helps import datasets from third-party
-                data collection tools while hosting a series of pre-built
-                connectors that let organizations integrate their ERP systems.
-                The application provides a workspace to perform cleaning and
-                join operations alongside scheduling imports and exports between
-                systems.`,
-      buttonText: 'Contact us',
+      description: `Dots is a modern visualization and reporting tool to help 
+      nonprofits connect their data from mutliple sources to visualize and make 
+      results reporting easier.`,
+      buttonText: 'Learn more',
       buttonLink: 'mailto:info@hikaya.io',
       buttonStyle: 'product-contact-btn'
     }
@@ -50,23 +41,19 @@ const products = {
     {
       itemClass: 'product-container media-container-row',
       icon: 'circles.png',
-      id: 'product-circles',
-      name: 'Circles',
-      headline: 'Standard form designer that automates KPI tracking',
-      description: `We are building a progressive web application that
-                helps design, offline data collection forms that are
-                standardized and are immediately linked to key performance indicators so that
-                nonprofits can easily automate their reporting. 
-                <br/>
-                <br/>
-                This application is based on a micro-service architecture for high performance,
-                scalability, and availability using
-                <a className="product-link" href="https://angular.io/" target="_blank">Angular 8</a>
-                and
-                <a className="product-link" href="https://www.python.org/" target="_blank">Python</a>
-                /
-                <a className="product-link" href="https://www.djangoproject.com/" target="_blank">Django</a>.`,
-      buttonText: 'Contact us',
+      id: 'product-connectors',
+      name: 'Connectors',
+      headline: 'Harness enterprise-grade solutions in your data pipeline',
+      description: `We’re architecting a common data pipeline 
+      for nonprofits to manage their unstructured datasets by importing 
+      from third-party data collection tools while hosting a series of pre-built 
+      connectors that let organizations seamlessly integrate their ERP systems.
+      <br>
+      <br>
+      Built using open source tools like <a className="product-link" href="https://airflow.apache.org/" target="_blank">Apache Airflow</a> 
+      and <a className="product-link" href="http://superset.incubator.apache.org/" target="_blank">Apache Superset</a>, we're helping nonprofits 
+      implement end-to-end data integration and business intelligence solutions.`,
+      buttonText: 'Learn more',
       buttonLink: 'mailto:info@hikaya.io',
       buttonStyle: 'product-contact-btn'
     }
