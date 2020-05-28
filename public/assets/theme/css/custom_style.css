@@ -535,8 +535,8 @@ p {
 
 /* Teams page */
 .img-team {
-  height: 10.5rem;
-  width: 10.5rem;
+  height: 7.5rem;
+  width: 7.5rem;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(115, 117, 129, 0.1),
@@ -740,4 +740,13 @@ p {
 
 .blog-text {
   margin: 3rem;
+}
+
+.githubLogo{
+  color:#737581;
+  padding: 0 0.5rem;
+}
+
+.githubLogo:hover {
+  color:#a1a3b3;
 }
