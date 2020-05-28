@@ -66,8 +66,8 @@ export const Team = () => {
     {
       id: 'nasir',
       name: 'Nasir Hussain',
-      title: 'Backend ninja who keeps our apps in shape',
-      description: 'Backend ',
+      title: 'Backend Engineer',
+      description: 'Backend ninja who keeps our apps in shape',
       imageFormal: 'https://avatars3.githubusercontent.com/u/22004703?s=460&u=0f6d7119caa2ea87837c0e5814c6531136118294&v=4',
       imageFun: 'https://avatars3.githubusercontent.com/u/22004703?s=460&u=0f6d7119caa2ea87837c0e5814c6531136118294&v=4',
       github:'https://github.com/nasirhjafri',
