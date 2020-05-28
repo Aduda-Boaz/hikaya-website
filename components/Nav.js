@@ -61,14 +61,14 @@ const Nav = () => (
                     Team
                   </a>
                 </Link>
-                <a className='dropdown-item' href='#'>
+                {/* <a className='dropdown-item' href='#'>
                   <img
                     className='cogs-icon'
                     src='assets/images/cogs.png'
                     alt='cogs icon'
                   />
                   Engineering
-                </a>
+                </a> */}
               </div>
             </li>
             <li className='nav-item'>
