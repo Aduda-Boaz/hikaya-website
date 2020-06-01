@@ -30,7 +30,7 @@ const products = {
       name: 'Dots',
       headline: 'Connect and visualize your data from anywhere',
       description: `Dots is a modern visualization and reporting tool to help 
-      nonprofits connect their data from mutliple sources to visualize and make 
+      nonprofits connect their data from multiple sources to visualize and make 
       results reporting easier.`,
       buttonText: 'Learn more',
       buttonLink: 'mailto:info@hikaya.io',
